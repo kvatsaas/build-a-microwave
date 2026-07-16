@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About · Build-A-Microwave</title>
+<meta name="description" content="About Build-A-Microwave and its fictional gameplay ratings." />
+<link rel="canonical" href="https://www.build-a-microwave.com/about.html" />
+<style>
+:root{
+  --bg:#0b0f14;--panel:#111820;--line:#243039;--line-hi:#33434f;
+  --text:#eaf1f3;--muted:#8399a6;--muted-2:#5f7683;--mint:#38e0b8;
+}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{
+  background:radial-gradient(100% 80% at 50% 0%,rgba(56,224,184,.06),transparent 60%),var(--bg);
+  color:var(--text);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased
+}
+header{
+  display:flex;align-items:center;justify-content:space-between;padding:15px 22px;
+  border-bottom:1px solid var(--line);background:#0a0f15
+}
+.brand{font-weight:800;letter-spacing:.02em}.brand b{color:var(--mint)}
+.back{
+  color:var(--muted);text-decoration:none;border:1px solid var(--line-hi);
+  border-radius:8px;padding:8px 13px;font-size:12px;font-weight:700
+}
+.back:hover{color:var(--text);border-color:var(--mint)}
+main{width:min(760px,calc(100% - 32px));margin:54px auto 80px}
+.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mint);font-weight:700}
+h1{font-size:38px;letter-spacing:-.035em;margin:10px 0 16px}
+.lead{font-size:17px;line-height:1.65;color:#b8c6cc;margin:0 0 32px}
+.card{
+  padding:24px;border:1px solid var(--line);border-radius:14px;background:var(--panel);
+  box-shadow:0 20px 50px rgba(0,0,0,.3);margin-top:16px
+}
+h2{font-size:17px;margin:0 0 12px}
+p,li{color:var(--muted);font-size:14px;line-height:1.65}
+ul{padding-left:20px;margin-bottom:0}
+a{color:var(--mint)}
+footer{margin-top:28px;color:var(--muted-2);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">BUILD·A·<b>MICROWAVE</b></div>
+  <a class="back" href="./">Back to game</a>
+</header>
+<main>
+  <div class="eyebrow">About</div>
+  <h1>Build-A-Microwave</h1>
+  <p class="lead">An independent browser game about drafting components from different microwave models and assembling a final build.</p>
+
+  <section class="card">
+    <h2>Important disclaimer</h2>
+    <ul>
+      <li>Build-A-Microwave is an independent entertainment project. It is not affiliated with, sponsored by, or endorsed by any microwave manufacturer or retailer.</li>
+      <li>All component grades, overall ratings, tiers, simulations, and popcorn outcomes are fictional gameplay values.</li>
+      <li>The game is not product testing, a safety evaluation, a product review, purchasing advice, or a statement about the real-world quality of any appliance.</li>
+      <li>Manufacturer names, product names, trademarks, and product imagery remain the property of their respective owners and are used to identify the products represented as game pieces.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Sharing and privacy</h2>
+    <p>The game does not require an account. A shared build is encoded directly in the link after the <code>#</code> symbol so the recipient’s browser can reconstruct it. The current version does not send the build to a game database.</p>
+    <p>If advertising, analytics, or additional data collection is added, this page should be updated with a separate privacy policy and the applicable disclosures.</p>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <p>don't</p>
+  </section>
+
+  <footer>© Build-A-Microwave. Independent entertainment project.</footer>
+</main>
+</body>
+</html>
